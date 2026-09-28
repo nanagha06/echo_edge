@@ -1,0 +1,48 @@
+ECHOEDGE V8 MISSED POSITIVES AT THRESHOLD 0.46
+===========================================================================
+
+Category: wake_clean
+File: wake_clean/wave20.wav
+Maximum score: 0.085305
+Best window: 0.000 - 1.000s
+Target: 1
+Label: positive_strong
+Coverage: 0.9916
+Position: beginning_partial
+
+Category: wake_clean
+File: wake_clean/wave33.wav
+Maximum score: 0.144418
+Best window: 0.000 - 1.000s
+Target: 1
+Label: positive_near_complete
+Coverage: 0.925
+Position: beginning_partial
+
+Category: wake_sentence_middle
+File: wake_sentence_middle/WhatsApp Audio 2026-09-22 at 9.22.21 PM (2).wav
+Maximum score: 0.371694
+Best window: 1.000 - 2.000s
+Target: 0
+Label: partial_wake
+Coverage: 0.8025
+Position: ending_partial
+
+Category: wake_sentence_natural
+File: wake_sentence_natural/WhatsApp Audio 2026-09-22 at 9.59.59 PM.wav
+Maximum score: 0.398569
+Best window: 0.000 - 1.000s
+Target: 0
+Label: partial_wake
+Coverage: 0.5861
+Position: beginning_partial
+
+Category: wake_sentence_middle
+File: wake_sentence_middle/WhatsApp Audio 2026-09-22 at 9.22.20 PM.wav
+Maximum score: 0.444168
+Best window: 1.000 - 2.000s
+Target: 0
+Label: partial_wake
+Coverage: 0.5781
+Position: ending_partial
+

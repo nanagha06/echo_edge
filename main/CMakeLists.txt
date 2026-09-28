@@ -1,0 +1,29 @@
+idf_component_register(
+    SRCS
+        "v6_echoedge.cc"
+        "echoedge_v8_model.cc"
+    INCLUDE_DIRS
+        "."
+    PRIV_REQUIRES
+        espressif__esp-tflite-micro
+        espressif__esp-sr
+        esp_driver_gpio
+        esp_driver_i2s
+        esp_timer
+        esp_wifi
+        esp_event
+        esp_netif
+        nvs_flash
+        esp_http_client 
+)
+
+add_prebuilt_library(
+    echoedge_speech_features
+    "${CMAKE_CURRENT_LIST_DIR}/../managed_components/espressif__esp-sr/lib/esp32s3/libc_speech_features.a"
+)
+
+target_link_libraries(
+    ${COMPONENT_LIB}
+    PRIVATE
+    echoedge_speech_features
+)

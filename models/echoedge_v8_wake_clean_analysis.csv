@@ -1,0 +1,8 @@
+file,duration,annotation_duration,max_probability,threshold_result,window_start,window_end,coverage,label,position,target
+wake_clean/wake.71d9tcfc.s1.wav,1.494875,1.3213,0.05579236522316933,MISS,0.0,1.0,0.6629,partial_wake,beginning_partial,0
+wake_clean/wave20.wav,1.0140625,1.0085,0.08530475944280624,MISS,0.0,1.0,0.9916,positive_strong,beginning_partial,1
+wake_clean/wave33.wav,1.0895,1.0811,0.14441794157028198,MISS,0.0,1.0,0.925,positive_near_complete,beginning_partial,1
+wake_clean/wake.71d9tcfc.s7.wav,1.0135,0.9438000000000001,0.5034577250480652,DETECT,0.0,1.0,0.9878,positive_strong,beginning_partial,1
+wake_clean/wave35.wav,0.7155625,0.7091000000000001,0.836444079875946,DETECT,0.0,0.7156,0.991,short_positive,short_recording,1
+wake_clean/wave12.wav,0.68025,0.6803,0.8536779880523682,DETECT,0.0,0.6803,1.0,short_positive,short_recording,1
+wake_clean/wave34.wav,0.9125625,0.9065,0.9525079131126404,DETECT,0.0,0.9126,0.9934,short_positive,short_recording,1
